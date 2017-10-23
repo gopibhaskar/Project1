@@ -71,7 +71,6 @@ public class CartLineTestCase {
 	
 	@Test
 	public void testUpdateCartLine() {
-
 		// fetch the user and then cart of that user
 		User user = userDAO.getByEmail("absr@gmail.com");		
 		Cart cart = user.getCart();
@@ -87,7 +86,6 @@ public class CartLineTestCase {
 		cart.setGrandTotal(cart.getGrandTotal() + (cartLine.getTotal() - oldTotal));
 		
 		assertEquals("Failed to update the CartLine!",true, cartLineDAO.update(cartLine));	
-
 		
 	}
 	

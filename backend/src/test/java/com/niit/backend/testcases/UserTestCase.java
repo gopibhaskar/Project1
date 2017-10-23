@@ -63,7 +63,6 @@ public class UserTestCase {
 		assertEquals("Failed to add the user!", true, userDAO.add(user));	
 		// add the address
 		assertEquals("Failed to add the billing address!", true, userDAO.addAddress(address));
-
 				
 		// add the shipping address
 		address = new Address();
@@ -107,7 +106,6 @@ public class UserTestCase {
 		cart.setCartLines(1);
 		assertEquals("Failed to update the cart!", true, userDAO.updateCart(cart));			
 	} 
-
 */
 	
 

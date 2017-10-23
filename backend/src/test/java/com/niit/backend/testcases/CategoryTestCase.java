@@ -87,7 +87,6 @@ public class CategoryTestCase {
 		
 	}
 	
-
 	
 	@Test
 	public void testCRUDCategory() {
@@ -109,7 +108,6 @@ public class CategoryTestCase {
 		category.setImageURL("CAT_2.png");
 		
 		assertEquals("Successfully added a category inside the table!",true,categoryDAO.add(category));
-
 		
 		// fetching and updating the category
 		category = categoryDAO.get(2);
