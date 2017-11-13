@@ -28,24 +28,23 @@
 						<div class="carousel-inner">
 							
 							<div class="item active">
-								<img class="slide-image" src="${images}/ur1.jpg"
+								<img class="slide-image" src="${images}/banneer1.jpg"
 									alt="">
 							</div>
 							<div class="item">
-								<img class="slide-image" src="${images}/ur2.jpg"
+								<img class="slide-image" src="${images}/banner2.jpg"
 									alt="">
 							</div>
 							<div class="item">
-								<img class="slide-image" src="${images}/ur3.jpg"
+								<img class="slide-image" src="${images}/banner3.jpg"
 									alt="">
 							</div>
 							<div class="item">
-								<img class="slide-image" src="${images}/ur4.jpg"
+								<img class="slide-image" src="${images}/banner4.jpg"
 									alt="">
 							</div>
-							
 							<div class="item active">
-								<img class="slide-image" src="${images}/ur5.jpg"
+								<img class="slide-image" src="${images}/banner5.jpg"
 									alt="">
 							</div>
 						</div>
